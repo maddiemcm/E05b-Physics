@@ -64,7 +64,7 @@ class Window(arcade.Window):
 
     def update(self, delta_time):
         for b in self.ball_list:
-            b.accelerate(0,-9.8)
+            b.accelerate(0,-1)
             b.update()
 
     def on_draw(self):
